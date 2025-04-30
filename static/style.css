@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {
+  font-family: Arial;
+}h1, h2, h3,
+h4, h5, h6,
+
+h1, h2, h3,
+h4, h5, h6 {
+  color: #8d0000;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+ label, button{
+  color: #288d00;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+label, button{
+  color: #003f91;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title {
+  color: #d80000;
+}
+
+/* On peut cibler 2 classes appartenant à la même balise en enchaînant les sélecteurs de classes sans espace : */
+.title.underline {
+  text-decoration: underline;
+}
+
+.red {
+  color: #555050;
+}
+
+/* Le code hexadécimal n'est pas le seul code que l'on peut employer pour définir la couleur : */
+.blue {
+  color: rgb(69, 80, 177);
+}
